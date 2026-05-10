@@ -117,22 +117,3 @@ The model achieved strong detection performance while maintaining fast inference
   <img src="train_batch1 (1).jpg" width="45%">
   <img src="train_batch2.jpg" width="45%">
 </p>
-## Project Structure
-
-```bash
-thermal-anomaly-detection/
-│
-├── notebooks/
-│   └── thermal_detection.ipynb
-│
-├── results/
-│   ├── confusion_matrix.png
-│   ├── results.png
-│   ├── PR_curve.png
-│   └── sample_predictions.png
-│
-├── models/
-│   └── best.pt
-│
-├── README.md
-└── requirements.txt
