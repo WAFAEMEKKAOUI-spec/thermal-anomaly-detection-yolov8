@@ -109,7 +109,14 @@ The model was evaluated using standard object detection metrics:
 
 The model achieved strong detection performance while maintaining fast inference speed suitable for real-time applications.
 
-
+<p align="center">
+  <img src="results.png" width="45%">
+  <img src="confusion_matrix.png" width="45%">
+  <img src="BoxF1_curve(1).png" width="45%">
+  <img src="BoR_curve(1).png" width="45%">
+  <img src="train_batch1 (1).jpg" width="45%">
+  <img src="train_batch2.jpg" width="45%">
+</p>
 ## Project Structure
 
 ```bash
