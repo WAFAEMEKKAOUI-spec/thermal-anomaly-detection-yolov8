@@ -7,7 +7,6 @@ Thermal imaging is widely used in industrial monitoring, surveillance, predictiv
 
 To address these challenges, this project uses YOLOv8 as a lightweight and real-time object detector capable of detecting thermal objects efficiently while maintaining high inference speed.
 
----
 
 ## Dataset
 The model was trained using the Thermal Images Dataset from Roboflow Universe.
@@ -30,7 +29,6 @@ The dataset contains annotated infrared thermal images with bounding box labels 
 
 The dataset includes images collected under different environmental conditions and viewing distances to improve model robustness and generalization.
 
----
 
 ## Objectives
 The main objectives of this project are:
@@ -41,7 +39,7 @@ The main objectives of this project are:
 - Achieve fast inference speed suitable for edge devices
 - Build a baseline framework for future thermal anomaly research
 
----
+
 
 ## Technologies Used
 
@@ -53,7 +51,6 @@ The main objectives of this project are:
 - Roboflow
 - Kaggle Notebook Environment
 
----
 
 ## Model Architecture
 This project uses the YOLOv8 architecture provided by Ultralytics. YOLOv8 is a one-stage object detector known for its high speed and strong detection performance.
@@ -68,7 +65,6 @@ Key features include:
 
 The YOLOv8n model variant was selected due to its balance between computational efficiency and detection accuracy.
 
----
 
 ## Data Preprocessing
 Several preprocessing and augmentation techniques were applied before training:
@@ -82,7 +78,6 @@ Several preprocessing and augmentation techniques were applied before training:
 
 These methods improve model generalization and robustness against varying thermal conditions.
 
----
 
 ## Training Configuration
 
@@ -95,7 +90,6 @@ These methods improve model generalization and robustness against varying therma
 | Framework | Ultralytics YOLOv8 |
 | GPU | NVIDIA Tesla T4 |
 
----
 
 ## Evaluation Metrics
 The model was evaluated using standard object detection metrics:
@@ -116,7 +110,6 @@ The model was evaluated using standard object detection metrics:
 
 The model achieved strong detection performance while maintaining fast inference speed suitable for real-time applications.
 
----
 
 ## Project Structure
 
